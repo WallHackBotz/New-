@@ -18,7 +18,6 @@ handler.before = m => {
 │𝗡𝗢𝗧𝗘: 
 │➥𝙂𝙪𝙣𝙖𝙠𝙖𝙣 𝘽𝙊𝙏 𝙎𝙚𝙘𝙪𝙠𝙪𝙥𝙣𝙮𝙖!
 │➥𝙅𝙖𝙣𝙜𝙖𝙣 𝘾𝙖𝙡𝙡/𝙑𝙘 𝘽𝙊𝙏!
-│➥𝘿𝙚𝙢𝙞 𝙠𝙚𝙣𝙮𝙖𝙢𝙖𝙣𝙖𝙣 𝙗𝙚𝙧𝙨𝙖𝙢𝙖
 ╰──────────────────
 `.trim()
         conn.send2Button(m.chat, str, footer, 'PROFILE', '#profile', 'MENU', '#menu', false, {
