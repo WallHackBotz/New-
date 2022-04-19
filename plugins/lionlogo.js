@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ').split('|')
   if (!args[0]) throw 'Masukkan Parameter'
   m.reply('Sedang Diproses...')
-  let res = await fetch(`http://lolhuman.herokuapp.com/api/textprome2/lionlogo?apikey=Dawnfrostkey&text1=${response[0]}&text2=${response[1]}`)
+  let res = await fetch(`https://api-invibot.herokuapp.com/api/textpro/lion-logo?text=Revita&text2=cansz&apikey=APIKEY`)
   conn.sendFile(m.chat, res, 'nama.jpg', `Nih Mhank`, m, false)
 }
 handler.help = ['lionlogo'].map(v => v + ' <teks|teks>')

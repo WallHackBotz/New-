@@ -3,20 +3,20 @@ let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kontol = `
 ╭═════〘 DONASI 〙 ═
-╠➥ DANA [6281360482998]
-╠➥ PULSA [6281360482998]
+╠➥ GOPAY [62895401928948]
+╠➥ PULSA [6281226675327]
 ╰═══〘 ${namabot} 〙 ═
 
 ╭═══════〘 PRIVASI BOT 〙═══
 ➥Kebijakan Privasi
 
-1. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan merekam data riwayat chat user.
-2. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyebarkan nomor users.
-3. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyimpan media yang dikirimkan oleh users.
-4. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× tidak akan menyalah gunakan data data users.
-5. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× berhak melihat data riwayat chat users.
-6. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× berhak melihat status users.
-7. Owner ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× dapat melihat riwayat chat, dan media yang dikirimkan users.
+1. tidak akan merekam data riwayat chat user.
+2. Bot tidak akan menyebarkan nomor users.
+3. tidak akan menyimpan media yang dikirimkan oleh users.
+4. tidak akan menyalah gunakan data data users.
+5. Owner berhak melihat data riwayat chat users.
+6. Owner berhak melihat status users.
+7. Owner dapat melihat riwayat chat, dan media yang dikirimkan users.
 ╭═══════════════════════
 ➥Peraturan Bot
 
@@ -29,10 +29,10 @@ let handler = async(m, { conn }) => {
 ➥Syarat Ketentuan Bot
 
 1. Bot akan keluar dari group apabila sudah waktunya keluar.
-2. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× dapat mem-ban users secara sepihak terlepas dari users salah atau tidak.
-3. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
-4. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
-5. ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
+2. Owner Bot dapat mem-ban users secara sepihak terlepas dari users salah atau tidak.
+3. Owner Bot *tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.*
+4. Owner akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
+5. Owner bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 ╰═══════════════════════
 `.trim()
   const button = {
