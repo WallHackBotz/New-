@@ -6,7 +6,7 @@ if (!text) throw `uhm.. teksnya mana?\nContoh :\n\n${usedPrefix + command} Halo 
 m.reply(global.wait)
 let [t1, t2, t3, t4, t5, t6, t7] = text.split`|`
 conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
-for (let id of groups) await conn.send3Button(id, t1 + '\n\n' + readMore + `【﻿ᴮᶜᴳᶜ】 ᵏʳⁱ𝘽𝙡𝙖𝙘𝙠𝙖𝙩 𝘽𝙤𝙩𝙯៚  【﻿ᴮᶜᴳᶜ】`, footer, t2, t3, t4, t5, t6, t7)
+for (let id of groups) await conn.send3Button(id, t1 + '\n\n' + readMore + `【﻿ᴮᶜᴳᶜ】 ʀʀꜱꜱᴢxx ʙᴏᴛ៚  【﻿ᴮᶜᴳᶜ】`, footer, t2, t3, t4, t5, t6, t7)
 m.reply('Selesai Broadcast All Group 👍')
 }
 handler.help = ['broadcastgroup','bcgc'].map(v => v + ' <teks>')

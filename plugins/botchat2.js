@@ -23,7 +23,7 @@ var seconds = Math.floor(seconds % 60);
 return `${pad(hours)}Jam ${pad(minutes)}Menit ${pad(seconds)}Detik`
 }
 runtime = process.uptime()
-					teks = `ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜×`// \n\n${kyun(runtime)}`
+					teks = `ʀʀꜱꜱᴢxx ʙᴏᴛ ×፝֟͜×`// \n\n${kyun(runtime)}`
 					run = `${kyun(runtime)}`
 					var itsme = `0@s.whatsapp.net`
 					var split = `teks`
@@ -42,7 +42,7 @@ conn.sendMessage(m.chat, `${ucapan()}\n\n
 ╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗
 ║║║╠─║─║─║║║║║╠─
 ╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝
-\nBotnya ᴹᴿ𝙄𝙩𝙨𝙠𝙧𝙞 ×፝֟͜× disini, Ada yang bisa dibantu?\n`, 'conversation', {quoted: m, thumbnail: img2, contextInfo:{externalAdReply: {title: teks, body: `${run}`, sourceUrl: namagithub, thumbnail: img1}}})
+\nBotnya ʀʀꜱꜱᴢxx ʙᴏᴛ ×፝֟͜× disini, Ada yang bisa dibantu?\n`, 'conversation', {quoted: m, thumbnail: img2, contextInfo:{externalAdReply: {title: teks, body: `${run}`, sourceUrl: namagithub, thumbnail: img1}}})
 .trim(), footer, 'Pemilik Bot' : 'Menu', user.banned ? '#owner' : '#menu', m)}
 handler.customPrefix = /^(P|p|Hallo|halo|Halo|hallo|hi|helo|hai|hi|Hai|Helo|Hello|oy)$/i
 handler.command = new RegExp

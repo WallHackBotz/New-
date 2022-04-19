@@ -9,7 +9,7 @@ let [t1, t2, t3] = text.split`|`
 //conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
 conn.reply(m.chat, `_Mengirim pesan broadcast ke ${chats.length} chat_`, m)
 //for (let id of groups) await conn.sendButton(id, t1 + '\n\n' + readMore + ` 「 ${bc} Group Broadcast 」`, footer, t2, t3)
-for (let id of chats) await conn.sendButton(id, t1 + '\n\n' + readMore + `〘 ᵏʳⁱ𝘽𝙡𝙖𝙘𝙠𝙖𝙩 𝘽𝙤𝙩𝙯៚ ₐₗₗ𝗕𝗖 〙`, footer, t2, t3)
+for (let id of chats) await conn.sendButton(id, t1 + '\n\n' + readMore + `〘 ʀʀꜱꜱᴢxx ʙᴏᴛ៚ ₐₗₗ𝗕𝗖 〙`, footer, t2, t3)
 m.reply('Selesai Broadcast All Chat 👍')
 }
 handler.help = ['broadcast','bc'].map(v => v + ' <teks>')
