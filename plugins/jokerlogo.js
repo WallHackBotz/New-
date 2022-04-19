@@ -3,7 +3,7 @@ let handler = async (m, { conn, args }) => {
    response = args.join(' ')
   if (!args) throw 'Masukkan Parameter'
   m.reply('*Dalam Proses...*')
-  let res = `http://api.lolhuman.xyz/api/textprome/jokerlogo?apikey=rey2k21&text=${response}`
+  let res = `https://api-invibot.herokuapp.com/api/textpro/joker-logo?text=Revita&apikey=APIKEY`
   conn.sendFile(m.chat, res, 'nama.jpg', `Nih Mhank`, m, false)
 }
 handler.help = ['jokerlogo'].map(v => v + ' <teks>')

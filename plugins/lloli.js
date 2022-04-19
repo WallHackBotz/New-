@@ -2,7 +2,7 @@ let fetch = require('node-fetch')
      let handler  = async (m, { conn, usedPrefix, command }) => {
      	if (!db.data.chats[m.chat].nsfw && m.isGroup) throw global.nsfw
 m.reply(wait)
-heum = await fetch(`https://api.lolhuman.xyz/api/random/nsfw/loli?apikey=${lolkey}`)
+heum = await fetch(`https://api-invibot.herokuapp.com/api/wallpaper/nsfwloli?apikey=APIKEY`)
     json = await heum.buffer()
    conn.sendButtonImg(m.chat, json, kasihcaption, footer, 'Next', `${usedPrefix + command}`, m, { contextInfo: { forwardingScore: 999, isForwarded: true }})
 
