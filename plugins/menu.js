@@ -227,7 +227,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `${ucapan()}
-𝗔𝗹𝗹𝗼 𝗠𝘆𝗽𝗿𝗲𝗻👋, ${name}`.trim(),
+Halo Kak👋, ${name}`.trim(),
           "description": `
 ┏━━〔 𝙎 𝙏 𝘼 𝙏 𝙐 𝙎 〕━֍
 ┃⬣ Aktif selama *${uptime}*
@@ -239,7 +239,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬣ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┗━━━━━━━━━━━━━━֍
 ┏━━〔 𝘼𝘾𝘾𝙊𝙐𝙉𝙏 𝙊𝙒𝙉𝙀𝙍 〕━֍
-┃⬣ YT : youtube.com/c/Rrsszxx Official
+┃⬣ YT : youtube.com/c/Rrsszxx
 ┃⬣ 𝘿𝙊𝙉'𝙏 𝙁𝙊𝙍𝙂𝙀𝙏 𝙏𝙊 𝙁𝙊𝙇𝙇𝙊𝙒𝙄𝙉𝙂!
 ┗━━━━━━━━━━━━━━֍`.trim(),
                         "footerText": "𝘑𝘪𝘬𝘢 𝘮𝘦𝘯𝘦𝘮𝘶𝘬𝘢𝘯 𝘣𝘶𝘨 𝘥𝘢𝘭𝘢𝘮 𝘱𝘦𝘯𝘨𝘨𝘶𝘯𝘢𝘢𝘯\n𝘚𝘪𝘭𝘢𝘩𝘬𝘢𝘯 𝘭𝘢𝘱𝘰𝘳𝘬𝘢𝘯 𝘰𝘳 𝘵𝘢𝘯𝘺𝘢𝘬𝘢𝘯 𝘬𝘦𝘱𝘢𝘥𝘢 𝙊𝙬𝙣𝙚𝙧",
